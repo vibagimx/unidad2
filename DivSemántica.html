@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Ejemplo de DIV Semántica</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#">Principal</a></li>
+    <li><a href="#">Fotos</a></li>
+    <li><a href="#">Videos</a></li>
+    <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Mustang 67</h1>
+                  <h4>¡Para los amantes de los coches clásicos!</h4>
+              </hgroup>
+              <time datetime="2020-18-10" pubdate>
+                    publicado 18-10-2020
+              </time>
+        </header>
+        Contaba con un motor V8 de 427 pulgadas cúbicas y 520 CV. Era capaz de alcanzar los 273 Km/h.
+          <figure>
+                <img id="imagen" src="img/1.jpg">
+                <figcaption>
+                    Esta es la imagen del primer mensaje
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Lamborghini Aventador SVJ</h1>
+                <h4>¡Un automóvil fuera de éste mundo!</h4>
+            </hgroup>
+            <time datetime="2020-12-15" pubdate>
+                publicado 15-12-2020
+            </time>
+         </header>
+         Cuenta con un motor V12, con sus palpitantes 740 CV que permiten alcanzar los 350 km/h: máxima potencia con una hermosa banda sonora.
+         <figure>
+               <img id="imagen2" src="img/2.jpg">
+               <figcaption>
+                   Esta es la imagen del primer mensaje
+               </figcaption>
+         </figure>
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Mustang 67</blockquote>
+      <blockquote>Lamborghini Aventador SVJ</blockquote>
+      <a href="https://www.facebook.com/">
+       <figure>
+         <img src="img/facebook.jpg" alt="facebook" >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/">
+        <figure>
+          <img src="img/instagram.jpg" alt="instagram">
+        </figure>
+      </a>
+      <a href="index.html">Regresar al Inicio</a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2019-2020
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+
+  </div> <!--fin div agrupar-->
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    background-color: hsl(214, 61%, 38%);
+    font-family: sans-serif;
+    text-align: justify;
+    color: white;
+    }
+
+a {
+    color: white;
+}
+
+img {
+        
+        margin: 0 10px 10px 0;
+      }
+
+h1 {
+    color: #ffffff;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-size: 200%;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    background-color: hsl(0, 100%, 1%);
+    color: hsl(0, 0%, 100%);
+    font-size: 130%;
+    font-style: italic;
+}
+
+p {
+    background-color: hsl(214, 61%, 38%);;
+}
+
+em {
+    color: hsl(0, 71%, 31%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: hsl(59, 68%, 50%);
+    font-weight: normal;
+}
+
+address {
+    background-color: hsl(214, 61%, 38%);
+    font-weight: bold;
+    text-align: right;
+}

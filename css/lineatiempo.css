@@ -1,0 +1,54 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    align-content: center;
+}
+
+#body td, #body th {
+    border: 0px solid white;
+    padding: 0px;
+}
+
+#body tr:nth-child(even){background-color: rgb(223, 255, 79);}
+
+#body tr:hover {background-color: rgb(255, 0, 55);}
+
+h2{
+    font-size: 1rem;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: uppercase;
+    align-content: stretch;
+}
+
+tr{
+    align-content: flex-start;
+    text-align: justify;
+    background-color: rgb(192, 177, 37);
+    color: rgb(255, 255, 255);
+}
+
+td{
+    padding: 0px;
+    align-content: flex-start;
+    text-align: justify;
+    background-color: rgb(192, 177, 37);
+    color: rgb(255, 255, 255);
+}
+
+img{
+    size: 200px;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+img:hover{  
+    filter: saturate(300%);   
+}
+
+a{
+    font-size: 2em;
+    color : black;
+}

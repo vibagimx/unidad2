@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(241, 65%, 58%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+.estiloFoto {
+    border: black 10px solid; 
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    margin:10px auto;
+    display: block;
+}
+
+.estilo-2 {
+    border: hsl(240, 7%, 3%) 15px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 10% auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+    background-color: hsl(209, 65%, 32%);
+    color: white;
+    display: block;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    border: hsl(234, 88%, 20%) 5px dashed;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    color: white;
+    background-color: hsl(209, 65%, 32%);
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+h3 {
+    background-color: hsl(125, 47%, 56%);
+    color: hsl(253, 86%, 26%);
+    font-size: 130%;
+    font-style: italic;
+    border-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+}
+
+em {
+    color: hsl(64, 100%, 54%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: hsl(64, 100%, 54%);
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+li{
+    list-style: none;
+    color: white;
+    text-align: center;
+}
+
+address {
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-align: right;
+    border-radius: 30px;
+    padding: 20px;
+}
